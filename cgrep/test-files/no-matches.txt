@@ -1,0 +1,3 @@
+The weather is nice today
+Learning programming takes time
+Systems programming is interesting

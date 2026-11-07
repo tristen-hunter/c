@@ -1,0 +1,114 @@
+THE HARBOUR TOWN OF PORT MARLOW
+===============================
+
+Port Marlow sits at the edge of a grey and restless sea. The town has about
+four thousand residents, one lighthouse, two bakeries, and a very old library.
+Every morning the fishing boats leave before sunrise, and every evening they
+return with the catch of the day: cod, haddock, mackerel, and the occasional
+lobster. The harbour smells of salt, diesel, and fresh bread.
+
+The lighthouse was built in 1874 and still works today. Its beam can be seen
+from twenty nautical miles away. The keeper, an old man named Tobias Quill,
+climbs the 142 steps every night to check the lamp. He says the climb keeps
+him young. His daughter says it keeps him stubborn.
+
+The library holds over 12,000 books, many of them donated by sailors who
+passed through the port. Some are in French, some in Portuguese, and a few
+are in languages nobody in town can read. The librarian, Mrs. Okafor, keeps
+a locked cabinet of maps that she shows only to people who ask politely.
+
+LOCAL RECIPES
+-------------
+
+Marlow Fish Stew
+Ingredients: 500g cod, 200g haddock, 2 onions, 3 potatoes, 1 litre of stock,
+a handful of parsley, salt, and pepper. Chop the onions and fry them gently.
+Add the potatoes and stock, then simmer for twenty minutes. Add the fish last
+and cook for ten more minutes. Serve hot with fresh bread. Do not stir too
+much or the fish will fall apart.
+
+Harbour Bread
+Ingredients: 600g flour, 400ml warm water, 10g yeast, 10g salt. Mix everything
+and let the dough rest overnight. Bake at 230 degrees for forty minutes.
+The crust should be dark and crackly. Tap the bottom; it should sound hollow.
+
+SERVER LOG EXCERPT
+------------------
+
+2026-03-14 08:01:12 INFO  Server started on port 8080
+2026-03-14 08:01:15 INFO  Connected to database "marlow_db"
+2026-03-14 08:03:44 WARN  Slow query detected (2.4s): SELECT * FROM boats
+2026-03-14 08:07:09 ERROR Failed to connect to host 192.168.1.42
+2026-03-14 08:07:10 INFO  Retrying connection (attempt 1 of 3)
+2026-03-14 08:07:15 ERROR Failed to connect to host 192.168.1.42
+2026-03-14 08:07:20 INFO  Retrying connection (attempt 2 of 3)
+2026-03-14 08:07:25 INFO  Connection restored
+2026-03-14 09:15:00 INFO  User tobias.quill logged in
+2026-03-14 09:15:42 WARN  Invalid password attempt for user admin
+2026-03-14 09:15:48 WARN  Invalid password attempt for user admin
+2026-03-14 09:15:55 ERROR Account locked: admin
+2026-03-14 10:30:01 INFO  Backup completed (1.2 GB)
+2026-03-14 11:45:33 ERROR Disk usage above 90% on /var/log
+2026-03-14 12:00:00 INFO  Scheduled cleanup started
+2026-03-14 12:00:09 INFO  Cleanup finished, 340 MB freed
+
+A SHORT HISTORY OF THE TOWN
+---------------------------
+
+In the early years Port Marlow was little more than a handful of huts. The
+first settlers were fishermen who found shelter from the storms in the bay.
+By 1820 a stone pier had been built, and by 1850 the town had a market, a
+chapel, and a small shipyard. The railway arrived in 1901 and brought the
+first tourists. They came for the sea air and stayed for the fish stew.
+
+The great storm of 1953 destroyed half the pier and sank eleven boats.
+Nobody in town died, which locals still call a miracle. The pier was rebuilt
+within two years, using stone from the old quarry on the hill. The quarry
+itself is now a quiet pond where children swim in summer.
+
+Today the town depends on fishing, tourism, and a small but growing number
+of people who work from home with a laptop and a view of the sea. The council
+recently approved a plan to install fast internet along the harbour road.
+Some residents welcomed it. Others worried it would change the town forever.
+
+WEATHER NOTES
+-------------
+
+Winter: cold, wet, and windy. Average temperature 4 degrees.
+Spring: mild and changeable. Expect rain, then sun, then rain again.
+Summer: warm and bright. The sea is cold but the beaches are lovely.
+Autumn: golden light, calm mornings, and the first storms of the year.
+
+The locals have a saying: if you do not like the weather in Port Marlow,
+wait ten minutes. It is not always true, but it is true often enough.
+
+EDGE CASES FOR TESTING
+----------------------
+
+aaaa
+aaaaaa
+abababab
+the the the the
+The THE tHe thE
+
+foo-bar foo_bar foo.bar foobar FooBar
+C++ is not C#, and C is not C++.
+Price: $5.99, $10.00, and $120.50 (tax excluded).
+Email: tobias@portmarlow.example, admin@portmarlow.example
+Path: /var/log/marlow/server.log and C:\Users\Tobias\notes.txt
+Brackets [like this], (like this), {like this}, and <like this>.
+Quote "double" and 'single' and `backtick` styles.
+A line with a tab:	right here.
+Trailing spaces on this line:   
+
+Unicode: café, naïve, résumé, Zürich, São Paulo, 日本語
+Numbers: 0, 1, 42, 007, 3.14159, 1,000,000, 1e10
+
+A very long line follows. Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow Port Marlow the end.
+
+The first word on this line is lighthouse
+lighthouse is also the first word here
+and the last word here is lighthouse
+Lighthouse, lighthouses, and lighthouse-keeper all appear in this sentence.
+
+ERROR on the very last line of the file

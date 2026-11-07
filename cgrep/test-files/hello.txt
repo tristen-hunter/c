@@ -1,0 +1,6 @@
+Hello World
+Welcome to cGrep
+I would love to say Hello!
+Enjoy
+Another Hello
+I love programming in C
